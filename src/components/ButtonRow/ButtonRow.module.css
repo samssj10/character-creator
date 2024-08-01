@@ -1,2 +1,11 @@
 .buttonRow {
+    position: relative;
+    white-space: nowrap;
+    overflow: auto;
+    /* when dealing with horizontal overflow and inline elements we need to ensure line breaks do not happen for scrollbar to become effective */
+    margin-left: -22px;
+    margin-right: -22px;
+    margin-bottom: -22px;
+    padding: 22px;
+    /* undid the component padding by adding -ve margins and then re added padding by 22 instead of 24 to create that little spacing from edge of control pane  */
 }

@@ -6,3 +6,8 @@
   text-align: center;
 }
 
+.footer a {
+  color: inherit;
+  /* setting to white also works but setting to inherit means we can change it later directly on footer class as well */
+}
+
